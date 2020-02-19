@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  scroll-behavior: smooth; 
+  overflow-y: scroll; /*Dit lijkt het scrollprobleem op te lossen*/
+}
+
+
+
+#topnav{
+    padding: 1px;
+    display: block;
+    overflow: hidden;
+    position: sticky;
+    background-color: rgb(25, 46, 48);
+    top: 0;
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
+
+#topnav a{
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding: 20px 40px;
+    background-color:rgb(25, 46, 48);
+    text-decoration: none;
+}
+
+#topnav a:hover{
+    background-color: rgb(11, 148, 111)
+}
+
+#background{
+
+    background-color: #D1E8DE;
+   
+    
+}
+
+#styleswitch{
+
+    background-image: url("https://images.pexels.com/photos/327509/pexels-photo-327509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100vw;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+    border-bottom: 2px solid rgb(33, 83, 33);
+    text-align: center;
+    
+}
+
+.photoinhoud{
+    padding-top: 1px;
+}
+
+.websiteinhoud{
+    
+    padding-top: 1px;
+    height: 100vh;
+    background-color: #D1E8DE;
+    
+}
+
+h1 {
+margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.contentcontainer{
+    margin-top: 2vh;
+    height: 40%;
+    width: 40vw;
+    margin-left: 40px;
+    background-color: rgb(55, 155, 97);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagecontainer{
+    float: right;
+    margin-right: 40px;
+    width: 50vw;
+    height: 50vh;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.imagecontainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.websiteinhoudii{
+    padding-top: 1px;
+    height: 150vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.midcontainer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    text-align: center;
+    padding: 1px;
+    height: 90%;
+    width: 40vw;
+    background-color: rgba(60, 170, 88, 0.863);
+}
+
+.midcontainer h1 {
+    margin-top: 30px;
+}
+
+#texttrick{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    padding: 1px;
+
+
+}
+
+.hideme{
+    color: transparent;
+    transition: color 0.5s;
+}
+
+.showme{
+    color: white;
+    transition: color 0.5s;
+}
+
+#invoegvak{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: auto;
+    padding: 1px;
+    width: 400px;
+    height: 300px;
+    background-color: green;
+}
